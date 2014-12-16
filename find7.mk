@@ -19,7 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Bootanimation and recovery
 TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_WIDTH  := 1440
+DEVICE_RESOLUTION    := 1440x2560
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/oppo/find7/find7-vendor.mk)
