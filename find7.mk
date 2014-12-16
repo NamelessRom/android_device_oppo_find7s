@@ -22,12 +22,6 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH  := 1440
 DEVICE_RESOLUTION    := 1440x2560
 
-# call the proprietary setup
-$(call inherit-product-if-exists, vendor/oppo/find7/find7-vendor.mk)
-
-# Inherit from msm8974-common
-$(call inherit-product, device/oppo/msm8974-common/msm8974.mk)
-
 # Inherit from find7-common
 $(call inherit-product, device/oppo/find7-common/find7-common.mk)
 
