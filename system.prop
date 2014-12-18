@@ -3,6 +3,7 @@
 #
 rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 persist.radio.add_power_save=1
+ro.sf.lcd_density=538
 
 # sensors
 ro.qc.sdk.camera.facialproc=true
@@ -18,7 +19,3 @@ ro.gps.agps_provider=1
 
 # cabl is handled by the panel
 ro.qualcomm.cabl=0
-
-#Oppo
-ro.oppo.device=find7s
-ro.sf.lcd_density=538

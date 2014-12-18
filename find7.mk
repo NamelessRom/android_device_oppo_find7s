@@ -20,7 +20,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Bootanimation and recovery
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH  := 1440
-DEVICE_RESOLUTION    := 1440x2560
 
 # Inherit from find7-common
 $(call inherit-product, device/oppo/find7-common/find7-common.mk)
