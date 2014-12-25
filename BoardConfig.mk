@@ -18,11 +18,5 @@
 # Inherit from Find7 common
 include device/oppo/find7-common/BoardConfigCommon.mk
 
-# Filesystem
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 3221225472
-
-# Recovery
-TARGET_RECOVERY_FSTAB := device/oppo/find7-common/rootdir/etc/fstab.qcom
-
 # Assert
-TARGET_OTA_ASSERT_DEVICE := FIND7,find7,find7s
+TARGET_OTA_ASSERT_DEVICE := FIND7,find7,find7s,find7su
